@@ -1,0 +1,24 @@
+.full-screen {
+    height: 100vh;
+    position: relative;
+}
+
+.background {
+    background: no-repeat url("../assets/legaldesk_stiftelsesdokument_thumbnail.jpg");
+    background-size: cover;
+    // clip-path: ellipse(25% 40% at 50% 50%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.text-container {
+    background: rgba($color: #000000, $alpha: .5);
+    padding: clamp(5px, 5%, 50px);
+    width: clamp(250px, 50%, 1000px);
+    color: white;
+    position: relative;
+}
